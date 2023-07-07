@@ -71,7 +71,8 @@ function generatePassword() {
   console.log(passwordChar);
 
   for (var i = 0; i < characterLength; i++) {
-    password += passwordChar[Math.floor(Math.random() * passwordChar.length)];
+     password= passwordChar[Math.floor(Math.random() * passwordChar.length)];
+  
   }
   return password;
 }
